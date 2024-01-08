@@ -1,5 +1,3 @@
-enable_testing()
-
 add_executable(
   tests
   test_670.cpp

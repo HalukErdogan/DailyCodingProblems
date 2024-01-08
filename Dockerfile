@@ -5,4 +5,4 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get upgrade -y
 
 # install packages
-RUN apt-get install -y build-essential git cmake
+RUN apt-get install -y build-essential python3 git cmake

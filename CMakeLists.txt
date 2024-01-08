@@ -18,4 +18,5 @@ add_library(solutions INTERFACE)
 target_include_directories(solutions INTERFACE .)
 
 # add tests
+enable_testing()
 add_subdirectory(tests)
