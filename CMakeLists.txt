@@ -15,7 +15,7 @@ FetchContent_MakeAvailable(googletest)
 
 # create solutions library
 add_library(solutions INTERFACE)
-target_link_directories(solutions INTERFACE solutions)
+target_include_directories(solutions INTERFACE .)
 
 # add tests
 add_subdirectory(tests)
