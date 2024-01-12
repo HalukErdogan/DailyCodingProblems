@@ -10,4 +10,4 @@ cmake -S . -B build
 cmake --build build
 
 # test the package
-cd build && ctest --rerun-failed --output-on-failure
+cd build && ctest --output-on-failure
